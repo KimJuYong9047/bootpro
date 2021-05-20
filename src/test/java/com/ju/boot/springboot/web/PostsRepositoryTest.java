@@ -2,7 +2,6 @@ package com.ju.boot.springboot.web;
 
 import com.ju.boot.springboot.domain.posts.Posts;
 import com.ju.boot.springboot.domain.posts.PostsRepository;
-import com.ju.boot.springboot.web.dto.PostsSaveRequestDto;
 import org.junit.After;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -10,7 +9,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import java.time.Instant;
 import java.time.LocalDateTime;
 import java.util.List;
 
